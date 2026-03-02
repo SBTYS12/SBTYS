@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'Poppins', sans-serif;
+    --font-display: 'Playfair Display', serif;
+
+    /* Beige Pastel & Muted Gold Theme */
+    --background: 40 33% 96%;
+    --foreground: 30 20% 25%;
+    
+    --card: 40 20% 99%;
+    --card-foreground: 30 20% 25%;
+    
+    --border: 35 20% 85%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: hsl(var(--foreground));
+    background-color: hsl(var(--background));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  /* Pour la nav avec effet verre */
+  .glass-nav {
+    background-color: hsl(var(--background) / 0.7);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid hsl(var(--border) / 0.5);
+  }
+
+  /* Pour les cartes */
+  .glass-card {
+    background-color: hsl(var(--card) / 0.8);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  }
+}
