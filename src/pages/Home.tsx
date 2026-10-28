@@ -50,7 +50,7 @@ export default function Home() {
               variants={fadeInUp}
               className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed text-balance"
             >
-              We are AI & Software Engineers crafting intelligent systems, data-driven insights, and scalable web applications.
+              We are Full Stack & AI Engineers crafting intelligent systems, data-driven insights, and scalable web applications.
             </motion.p>
             
             <motion.div variants={fadeInUp} className="pt-8">

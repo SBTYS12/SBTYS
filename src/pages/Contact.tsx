@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button";
 const contacts = [
   {
     name: "Sinda Ben Samir",
-    role: "Data & AI Engineer",
+    role: "Full Stack & AI Engineer",
     email: "bensamirsinda@gmail.com",
     linkedin: "https://www.linkedin.com/in/sinda-ben-samir-69a138304/",
   },
   {
     name: "Tesnim Younes",
-    role: "AI & Software Engineer",
+    role: "Full Stack & AI Engineer",
     email: "tesnim.younes55@gmail.com",
     linkedin: "https://www.linkedin.com/in/tesnim-younes-7a2237304/",
   }

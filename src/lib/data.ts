@@ -41,6 +41,14 @@ export const projects: Project[] = [
     description: "This project is a complete food ordering web application, allowing users to browse a menu, add items to their cart, and place orders online with integrated payment. The app includes both a customer-facing front-end and an admin dashboard to manage products and track orders. Users can create accounts, log in securely, track order statuses, and pay online via Stripe. The application is fully responsive, providing a smooth experience on both desktop and mobile devices.",
     images: ["/projects/G-Delivery-food/1.png", "/projects/G-Delivery-food/2.png", "/projects/G-Delivery-food/3.png", "/projects/G-Delivery-food/4.png", "/projects/G-Delivery-food/5.png", "/projects/G-Delivery-food/6.png", "/projects/G-Delivery-food/7.png", "/projects/G-Delivery-food/8.png", "/projects/G-Delivery-food/9.png", "/projects/G-Delivery-food/10.png"],
     thumbnailUrl: "https://github.com/SBTYS12/Food-Delivery-",
+  },
+  {
+    id: 4,
+    name: "Plateforme B2B de développement des talents",
+    technologies: ["Django", "React", "PostgreSQL", "Python", "Machine Learning", "LLM", "RAG", "OpenAI API", "GitLab", "Docker"],
+    description: "Conception et développement d'une plateforme B2B basée sur l'IA pour le diagnostic, la formation et le développement des talents en entreprise. La plateforme intègre quatre espaces selon les rôles : Admin, RH, Commercial et Employé. L'Admin assure la gestion globale de la plateforme, des entreprises, des utilisateurs, des commerciaux, des contenus e-learning et des quotas d'utilisation des services IA. Les RH suivent et accompagnent le développement des collaborateurs, tandis que les employés bénéficient de diagnostics intelligents, de recommandations personnalisées, de parcours e-learning et d'un suivi de leur progression.",
+    videoUrl: "/projects/projet_pfe.mp4",
+    thumbnailUrl: null,
   }
 ];
 
@@ -48,7 +56,7 @@ export const resumes: Resume[] = [
   {
     id: 1,
     name: "Sinda Ben Samir",
-    role: "Data & AI Engineer",
+    role: "Full Stack & AI Engineer",
     description: "Passionate about extracting insights from data and building predictive models.",
     skills: ["Python", "Pandas", "TensorFlow", "PyTorch", "SQL", "Power BI","Langchain"],
     resumeUrl: "/resumes/CV_BENSAMIR_sinda.pdf",
@@ -56,7 +64,7 @@ export const resumes: Resume[] = [
   {
     id: 2,
     name: "Tesnim Younes",
-    role: "AI & Software Engineer",
+    role: "Full Stack & AI Engineer",
     description: "Specialized in scalable backend architectures and intelligent software solutions.",
     skills: ["FastAPI", "Next.js", "React", "Node.js", "MongoDB", "Docker", "HTML & CSS", "javascript"],
     resumeUrl: "/resumes/cv_Younes_Tesnime.pdf",
